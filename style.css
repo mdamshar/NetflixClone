@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Netflix Sans";
+    src: url(/NetflixSans-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: url(/Asset/bgimage_header.jpg);
+  background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: max(1200px, 100vw);
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.756);
+    position: absolute;
+}
+
+.nav {
+    position: relative;
+    color: white;
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav img {
+    width: 180px;
+   
+}
+
+.nav>.btn {
+    margin: 20px;
+   
+}
+
+.btn>span {
+    margin-right: 20px;
+    padding: 8px 25px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+.btn>button {
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.head2 {
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.head2 span:nth-child(1) {
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 20px 25vw;
+    text-align: center;
+}
+
+.head2 span:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 25vw;
+}
+
+.head2 span:nth-child(3) {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 25vw;
+}
+
+.mail {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.mail>input {
+    width: 350px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.mail>input::placeholder {
+    font-size: large;
+    padding: 10px;
+}
+
+
+.btn2 button {
+    padding: 12px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.line {
+    margin: 0;
+    height: 5px;
+    width: 100vw;
+    background-color: #DD0F24;
+}
+
+.box2 {
+    margin: 5vw 10vw;
+    padding: 40px;
+    background-color: #3B1031;
+    color: white;
+    border-radius: 30px;
+}
+
+.box2 p:first-child {
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.box2 p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.box2:hover {
+    animation-name: anime;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-fill-mode: both;
+}
+
+@keyframes anime {
+    from {}
+
+    to {
+        scale: 1.02;
+    }
+
+}
+
+.join p {
+    margin: 15px 11vw;
+    color: white;
+    font-size: 33px;
+}
+
+.card {
+    color: white;
+    background-image: linear-gradient(to bottom right, #1A2043 , #200F19);
+    width: 15vw;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card span {
+    font-size: 34px;
+}
+
+.card p {
+    font-size: 22px;
+}
+
+.card img{
+float: right;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    overflow: none;
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 15px 11vw;
+    font-size: 2em;
+    color: white;
+}
+.faqs span{
+    margin-top: 30px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq p{
+    background-color:#2D2D2D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 63vw;
+}
+
+.lastpara >p:nth-child(1){
+    color: white;
+    margin: 15px 11vw;
+    padding-top: 40px;
+    font-size: larger;
+}
+.lastpara >p:nth-child(3){
+    color: #c9c4c4;
+   margin-top: 45px;
+    margin-left: 14vw;
+    font-size: larger;
+}
+.mail3 {
+    display: flex;
+    gap: 10px;
+}
+
+.mail3>input {
+    width: 1000px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 11vw;
+}
+
+.mail3>input::placeholder {
+    font-size: large;
+    padding: 12px;
+    font-weight: bolder;
+    color: #AFAFAF;
+}
+
+
+.btn3 button {
+    padding: 12px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.flexf{
+    display: flex;
+    gap: 70px;
+    margin:30px 11vw;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.flexx ul{
+    list-style: none;
+}
+
+.flexx ul li{
+margin: 20px;
+}
+
+.flexx ul li a{
+    color: #c9c4c4;
+    font-size: larger;
+}
+
+.btns button{
+    font-size: larger;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 11vw;
+}
+.copyright p{
+    color: #c9c4c4;
+    margin: 30px 11vw;
+    font-size: larger;
+}
